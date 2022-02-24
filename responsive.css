@@ -1,0 +1,276 @@
+@media (max-width:1400px){
+
+}
+
+
+
+
+
+
+@media (max-width:1250px){
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+@media (max-width:992px){
+
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /********* BANNER SECTION START **********/
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        margin: 12px 0;
+    }
+
+    .banner button {
+        padding: 8px 18px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .banner {
+        padding: 150px 0;
+    }
+
+    /********* BANNER SECTION END **********/
+
+    /********* SERVICE SECTION START **********/
+    
+    .service-box {
+        width: 50%;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+
+    .service-box p{
+        padding: 0 !important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /********* SERVICE SECTION END **********/
+
+
+}
+
+
+
+
+
+
+.menu input,
+.menu span i{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width:768px){
+
+    /******* MENU START *******/
+
+    .header {
+        position: relative;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    .menu ul {
+        padding: 0;
+        margin-top: 30px;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .menu ul li{
+        display: block;
+    }
+
+    .menu span i {
+        position: absolute;
+        top: 26px;
+        right: 45px;
+        font-size: 30px;
+        color: #fff;
+        display: block;
+    }
+
+    .menu input {
+        position: absolute;
+        top: 26px;
+        right: 45px;
+        height: 30px;
+        width: 30px;
+        opacity: 0;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu input:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+
+    /******** MENU END *********/
+
+    /******* BANNER START *******/
+
+    .banner {
+        padding: 120px 0;
+    }
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+    .banner p {
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+
+
+    /******* BANNER END *******/
+
+    /********* SERVICE SECTION START **********/
+    
+    .service p {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .service-box {
+        padding: 15px;
+    }
+
+    /********* SERVICE SECTION END **********/
+
+    /********* ABOUT SECTION START **********/
+    
+    
+    
+    
+    
+    /********* ABOUT SECTION END **********/
+
+    
+    
+}
+
+
+
+
+
+
+@media (max-width:576px){
+
+    /******* BANNER START *******/
+
+    .banner {
+        padding: 90px 0;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+    /******* BANNER END *******/
+
+     /********* SERVICE SECTION START **********/
+    
+     .service-box {
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 40px;
+    }
+
+    /********* SERVICE SECTION END **********/
+
+
+}
+
+
+
+
+
+@media (max-width:300px){
+
+    .banner {
+        padding: 90px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

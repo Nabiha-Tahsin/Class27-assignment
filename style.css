@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-width{
+    width: 1250px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* ***************HEADER SECTION ************* */
+.header {
+    background-color: #22c3a3;
+    padding: 26px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.308);
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.logo h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+}
+.menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.menu ul{
+
+}
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    color: aquamarine;
+    transition: .5s;
+}
+
+
+/* ************ BANNER SECTION ********** */
+
+
+.banner{
+    background: url(https://i.ibb.co/kBqb027/header-bg01.jpg) no-repeat center bottom;
+    background-size: cover;
+    padding: 190px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 55px;
+}
+
+.banner p {
+    color: #cef2eb;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.banner button {
+    padding: 10px 22px;
+    font-size: 16px;
+    background-color: #0bbf9a;
+    border: 2px solid #CFF2EB;
+    color: #CFF2EB;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    Font-family: Open Sans, sans-serif
+}
+
+.banner button:hover{
+    background-color: #CFF2EB;
+    color: #0bbf9a;
+    transition: .4s;
+}
+
+
+/* *********** SERVICE SECTION *********** */
+
+
+.service{
+    text-align: center;
+    padding: 100px 0;
+    border-bottom:2px solid #0dbf9b;
+}
+.service h2 {
+    font-size: 30px;
+    color: #555555;
+    margin-bottom: 25px;
+}
+.service p{
+    Font-family: Open Sans, sans-serif;
+    color: #7B7B7B;
+}
+
+.box{
+    margin-top: 100px;
+}
+
+.service-box{
+    Font-family: Open Sans, sans-serif;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.service-box span {
+    font-size: 40px;
+    color: #0dbf9b;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.service-box p{}
+
+
+/* ********** ABOUT SECTION ********** */
+
+.about{
+    padding: 70px 0 60px 0;
+}
+.about h2{
+    font-size: 30px;
+    color: #555555;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.a-p{
+    Font-family: Open Sans, sans-serif;
+    color: #7B7B7B;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-content{
+    Font-family: Open Sans, sans-serif;
+}
+.about-img{
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+ }
+.about-img img{ 
+    max-width: 100%;
+}
+
+
+.about-text{
+    width: 50%;
+    float: right;
+}
+.about-text h3{
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 12px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.about-text  p{
+    color: #7B7B7B;
+}
+
+
+/* ****** CONTACT SECTION ****** */
+
+.contact{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 70px;
+    background-color: #f6f6f6;
+}
+
+.contact h2{
+    font-size: 30px;
+    color: #555555;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contact p{
+    Font-family: Open Sans, sans-serif;
+    color: #7B7B7B;
+}
+
+.all-contact{
+    
+}
+
+.contact-box{
+    Font-family: Open Sans, sans-serif;
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding:0 80px;
+    margin-top: 60px;
+}
+
+.contact-box span{
+    color: #0dbf9b;
+}
+.contact-box p{
+    margin-top: 12px;
+}
+
+
+/* ***** SOCIAL MENU ***** */
+
+
+.social-menu{
+    text-align: center;
+    background-color: #0dbf9b;
+
+}
+
+.social-menu ul{}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 18px 10px;
+}
+
+
+/* ******** FOOTER SECTION ******** */
+
+.footer{
+    background-color: #222222;
+    color: #555555;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
