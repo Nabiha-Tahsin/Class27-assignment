@@ -1,10 +1,16 @@
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 @media (max-width:1400px){
 
 }
 
+/* ----x--------x---------x--------x------x------ */
 
 
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 
 @media (max-width:1250px){
@@ -15,9 +21,11 @@
     }
 }
 
+/* ----x--------x---------x--------x------x------ */
 
 
-
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media (max-width:992px){
 
@@ -61,18 +69,42 @@
         padding: 0 !important;
     }
     
-    
-    
-    
-    
-    
-    
     /********* SERVICE SECTION END **********/
 
+    /********** ABOUT SECTION START ************/
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-img img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0 20px ;
+        box-sizing: border-box;
+    }
+
+    /********** ABOUT SECTION END ************/
+
+    /********** CONTACT SECTION START ************/
+    
+    .contact {
+        padding: 50px 30px;
+    }
+    
+    .contact-box {
+        padding: 10px 20px;
+    }
+    
+    /********** CONTACT SECTION END ************/
 
 }
 
-
+/* ----x--------x---------x--------x------x------ */
 
 
 
@@ -84,8 +116,8 @@
 
 
 
-
-
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media (max-width:768px){
 
@@ -164,6 +196,14 @@
 
     /********* SERVICE SECTION START **********/
     
+    .service {
+        padding: 70px 0 50px 0;
+    }
+
+    .box {
+        margin-top: 60px;
+    }
+    
     .service p {
         padding: 0 20px;
         box-sizing: border-box;
@@ -177,20 +217,47 @@
 
     /********* ABOUT SECTION START **********/
     
-    
-    
-    
+
+    .about {
+        padding: 60px 0 40px 0;
+    }
+
+    .a-p {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
     
     /********* ABOUT SECTION END **********/
+    
+    /********* CONTACT SECTION START **********/
+    
+
+    .contact-box {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .contact-box p {
+        line-height: 28px;
+    }
+    
+    
+    
+    
+    
+    /********* CONTACT SECTION END **********/
+
+
 
     
     
 }
 
+/* ----x--------x---------x--------x------x------ */
 
 
-
-
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media (max-width:576px){
 
@@ -221,12 +288,46 @@
 
     /********* SERVICE SECTION END **********/
 
+    /********* ABOUT SECTION START **********/
+
+    .a-p {
+        margin-bottom: 30px;
+    }
+
+    .about h2 {
+        margin-bottom: 15px;
+    }
+
+    .about-text  p {
+        margin-bottom: 40px;
+    }
+
+
+    /********* ABOUT SECTION END **********/
+
+    /********* CONTACT SECTION START **********/
+    
+    .social-menu ul li a {
+        padding: 18px 5px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+    
+    /********* CONTACT SECTION END **********/
+
+
+
 
 }
 
+/* ----x--------x---------x--------x------x------ */
 
 
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media (max-width:300px){
 
